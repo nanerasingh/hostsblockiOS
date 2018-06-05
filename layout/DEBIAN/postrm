@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "/etc/hosts.original" > "/etc/hosts"
+chown root:wheel "/etc/hosts"
+chmod 644 "/etc/hosts"
+killall -9 discoveryd
+killall -9 mDNSResponder
+exit 0

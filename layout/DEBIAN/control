@@ -1,0 +1,11 @@
+Package: com.pwn20wnd.hostsblock
+Name: HostsBlock
+Depends: coreutils-bin
+Version: 1.0
+Architecture: iphoneos-arm
+Pre-Depends: dpkg
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic, com.reddestdream.minimalhostsblocker, com.reddestdream.mhbcb, com.ichitaso.removeadstoggle
+Description: An ad blocker for iOS based on the hosts blocking method.
+Maintainer: Pwn20wnd
+Author: Pwn20wnd
+Section: System
